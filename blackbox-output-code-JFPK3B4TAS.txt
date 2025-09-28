@@ -9,32 +9,32 @@ export default function CVPortfolio() {
   const [activeSection, setActiveSection] = useState('about');
   const [isEditing, setIsEditing] = useState(false);
   const [cvData, setCvData] = useState({
-    name: 'Nguyễn Văn A',
-    title: 'Full-stack Developer',
-    email: 'nguyenvana@example.com',
-    phone: '+84 123 456 789',
-    location: 'Hà Nội, Việt Nam',
-    summary: 'Lập trình viên với 5 năm kinh nghiệm phát triển ứng dụng web và mobile. Đam mê công nghệ và luôn học hỏi những kỹ thuật mới.',
-    skills: ['JavaScript', 'React', 'Node.js', 'Python', 'MySQL', 'Git'],
+    name: 'Trần Thắng Tính',
+    title: 'Science Engineer',
+    email: 'tinh16082004@gmail.com',
+    phone: '+84 357326006',
+    location: 'Tân Phong,Quảng Trị, Việt Nam',
+    summary: 'Kĩ sư ngành Hóa với kinh nghiệm với phòng thí nghiệm và kết hợp niềm đam mê về công nghệ về web, game và một số kĩ năng về các dụng cụ hỗ trợ học tập như powerpoint, canva, capcut....',
+    skills: ['Experiments', 'Capcut', 'Marble Save', 'Science', 'Freelance', 'Writing'],
     experience: [
       {
-        company: 'Công ty công nghệ ABC',
-        position: 'Senior Developer',
-        period: '2022 - Hiện tại',
-        description: 'Phát triển và duy trì hệ thống quản lý doanh nghiệp'
+        company: 'Menas Zone',
+        position: 'Instructor',
+        period: '2025 - Hiện tại',
+        description: 'Khu vui chơi dành cho trẻ nhỏ giúp trẻ nhỏ phát triển toàn diện về thể chất và tinh thần'
       },
       {
-        company: 'Công ty phần mềm XYZ',
-        position: 'Frontend Developer',
-        period: '2019 - 2022',
-        description: 'Xây dựng giao diện người dùng cho các ứng dụng web'
+        company: 'Thương coffee',
+        position: 'Service staff',
+        period: '2024-2025',
+        description: 'Quán caffee bình dân với không gian cổ điển thời xưa với nhiều loại caffee và tạo không gian yên tĩnh cho một số người làm việc thích không gian yên tĩnh'
       }
     ],
     education: [
       {
-        school: 'Đại học Bách Khoa Hà Nội',
-        degree: 'Kỹ sư Công nghệ Thông tin',
-        period: '2015 - 2019'
+        school: 'Trường THPT Chuyên Quốc Học Huế',
+        degree: 'Chuyên Vật Lý',
+        period: '2019-2022'
       }
     ]
   });
@@ -112,7 +112,7 @@ export default function CVPortfolio() {
               <CardContent className="flex justify-center">
                 <img 
                   src="https://placeholder-image-service.onrender.com/image/300x300?prompt=Professional%20headshot%20of%20a%20Vietnamese%20software%20developer%20in%20business%20attire%20with%20confident%20smile%20and%20modern%20office%20background&id=edac351d-eb31-499d-aa40-d24309d2ccfc" 
-                  alt="Professional headshot of a Vietnamese software developer in business attire with confident smile and modern office background"
+                  alt="Professional portrait of a Vietnamese science engineer in business attire with a confident smile and modern office background"
                   className="w-48 h-48 rounded-full object-cover shadow-lg"
                 />
               </CardContent>
